@@ -4,6 +4,8 @@ export const palette = {
   tundora: '#404040',
   mandy: '#E65151',
   stratos: '#00000040',
+  cornflowerBlue: '#333D79FF',
+  amour: '#FAEBEFFF',
   //others
   blurred: '#F5FCFF88',
 };

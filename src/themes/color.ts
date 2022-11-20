@@ -4,6 +4,8 @@ export const color = {
   palette,
   transparent: 'rgba(0, 0, 0, 0)',
   background: palette.tundora,
+  primary: palette.cornflowerBlue,
+  secondary: palette.amour,
   tertiary: palette.tundora,
   text: palette.white,
   icon: palette.white,
