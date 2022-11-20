@@ -15,8 +15,10 @@ export const Button = ({
 }: ButtonProps) => {
   const viewStyle = styles[category] || styles.primary;
 
+  const textColor = category === 'primary' ? palette.white : palette.black;
+
   const content = children || (
-    <Text numberOfLines={1} color={palette.black} {...{textCategory, text}} />
+    <Text numberOfLines={1} color={textColor} {...{textCategory, text}} />
   );
 
   return (
