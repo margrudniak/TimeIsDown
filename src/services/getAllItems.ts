@@ -7,7 +7,6 @@ export const getAllItems = async (cb: (valueArr: TimerObjectType) => void) => {
       AsyncStorage.getItem(e, (errorItem?: Error, result?: string) => {
         try {
           const valueArr = JSON.parse(result!);
-          console.log('valueArr', valueArr);
           cb(valueArr);
         } catch (err) {
           console.error('Error getAll', errorItem);

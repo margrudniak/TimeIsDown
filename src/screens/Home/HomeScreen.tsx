@@ -24,7 +24,6 @@ export const HomeScreen = ({navigation}: HomeScreenProps) => {
     setIsScreenLoading(true);
     (async () => {
       if (focused) {
-        console.log('invoked');
         await getAllItems((el: TimerObjectType) =>
           timers.find(a => a.id === el.id) ? null : setTimers([...timers, el]),
         );
