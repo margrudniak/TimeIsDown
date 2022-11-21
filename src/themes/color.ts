@@ -7,7 +7,7 @@ export const color = {
   primary: palette.cornflowerBlue,
   secondary: palette.amour,
   tertiary: palette.tundora,
-  text: palette.white,
+  text: palette.black,
   icon: palette.white,
   error: palette.mandy,
 };
